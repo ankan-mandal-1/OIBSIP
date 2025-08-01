@@ -1,0 +1,229 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@100..900&display=swap');
+        body {
+            font-family: "Outfit", sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hero_section {
+            background-image: url(./images/homepage-pingzhu-hero-bg-opt-v2-3ce3022343c7ad918545a6a2e01f36b5.avif);
+            color: #001d2e;
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 15px;
+        }
+        .logo img {
+            max-width: 200px;
+        }
+        .language {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+        .language img {
+            max-width: 15px;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .content h1 {
+            font-size: 90px;
+            text-align: center;
+            padding: 60px 0 0 0;
+            line-height: 0.9;
+            margin: 0;
+            font-family: "Libertinus Serif", serif;
+        }
+        .content h2 {
+            text-align: center;
+            padding: 20px 0;
+            font-weight: 500;
+        }
+        .content button {
+            background-color: #0f866c;
+            color: #fff;
+            border-radius: 50px;
+            border: none;
+            padding: 22px 45px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .content button:hover {
+            background-color: yellow;
+            color: #001d2e;
+        }
+        .content .money-back {
+            font-size: 12px;
+            padding: 20px 0;
+        }
+        .content img {
+            max-width: 600px;
+        }
+
+        .features_section {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+            padding: 70px 0;
+        }
+        .features_section h2 {
+            font-size: 34px;
+            font-family: "Libertinus Serif", serif;
+        }
+        .features_section h3 {
+            font-size: 26px;
+            font-family: "Libertinus Serif", serif;
+        }
+        .features_section p {
+            font-weight: 400;
+        }
+        .features_section .content_feature{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            text-align: left;
+        }
+        .content_feature img {
+            max-width: 350px;
+            padding: 0 15px;
+        }
+        .content_feature div {
+            padding: 0 15px;
+        }
+        .btn {
+            background-color: #0f866c;
+            color: #fff;
+            border-radius: 50px;
+            border: none;
+            padding: 18px 28px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 30px 0;
+            cursor: pointer;
+        }
+        .why_expressvpn {
+            background-color: #f9f8f2;
+            text-align: center;
+            padding: 70px 0;
+        }
+        .why_expressvpn h2 {
+            font-size: 28px;
+            font-family: "Libertinus Serif", serif;
+        }
+        .grid-layout {
+            display: flex;
+            gap: 26px;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 900px;
+            margin: auto;
+        }
+        .grid-layout div {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            max-width: 275px;
+        }
+        .grid-layout img {
+            max-width: 240px;
+        }
+
+        .global {
+            padding: 80px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url("./images/map-55268416cd7ee847a41939f31605e2fa9977e841.avif");
+            background-position: center;
+        }
+        .global h2{
+            font-size: 34px;
+            text-align: center;
+        }
+        .global .country_btn {
+            background-color: #0f866c;
+            color: #fff;
+            border-radius: 50px;
+            border: none;
+            padding: 20px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 30px 0;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #001826;
+            color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            padding: 50px 0;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+        }
+        .box a {
+            color: #aeaeae;
+            text-decoration: none;
+            padding: 5px 0;
+        }
+
+        @media screen and (max-width: 750px) {
+            body {
+                overflow-x: hidden;
+            }
+            .logo img {
+                max-width: 150px;
+            }
+            .content h1 {
+            font-size: 40px;
+        }
+        .content h2 {
+            font-size: 20px;
+        }
+        .content .btn {
+            margin: 10px 0;
+        }
+        .content img {
+            max-width: 300px;
+        }
+        .features_section {
+            padding: 40px 0;
+        }
+        .features_section h2 {
+            padding: 0 10px;
+        }
+        .features_section .content_feature {
+            flex-direction: column;
+            gap: 0px;
+        }
+        .content_feature img {
+            max-width: 250px;
+        }
+        .reverse {
+            flex-direction: column-reverse !important;
+        }
+        .global h2 {
+            padding: 0 10px;
+        }
+        footer {
+            flex-direction: column;
+            padding: 20px 20px;
+        }
+    }
