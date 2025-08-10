@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #FEFFF0;
+            font-family: "Space Grotesk", sans-serif;
+        }
+        header {
+            border-bottom: 3px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 25px 0;
+        }
+        .toprightstar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+        }
+        .bottomleftstar {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            width: 50px;
+        }
+        .head_box {
+            border: 3px solid black;
+            display: grid;
+            grid-template-columns: 2.5fr 1fr 1fr 1fr;
+            background-color: #fff;
+            justify-content: center;
+            align-items: center;
+            z-index: -2;
+        }
+        .box {
+            border-right: 3px solid;
+            padding: 8px 8px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+        }
+        .box_item_left {
+            justify-content: flex-start;
+            gap: 10px;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .logo {
+            width: 30px;
+        }
+        .underline {
+            position: relative;
+        }
+        .underline::before {
+            background-color: #FFDC58;
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0.1em; /* adjust to control vertical position */
+            width: 88%;
+            height: 0.5em; /* adjust to control the thickness */
+            z-index: -1; 
+        }
+        /*-----Hero Section------------*/
+        .max_size {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero_section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            padding: 0;
+        }
+        .hero {
+            font-weight: 400;
+        }
+        .clipart_hero {
+            width: 120px;
+        }
+        h1 {
+            font-size: 52px;
+        }
+        .h1_underline {
+            position: relative;
+        }
+        .h1_underline:before{
+            content: "";
+            background-color: #FFDC58;
+            width: 4.4em;
+            height: 0.3em;
+            position: absolute;
+            bottom: 7px;
+            z-index: -1;
+        }
+        .hero_btn {
+            background-color: #BAE6FF;
+            font-family: inherit;
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 50px;
+            border: 5px solid black;
+        }
+        .spite {
+            position: relative;
+            top: 70px;
+            right: 20px;
+            width: 60px;
+        }
+        .name {
+            width: 130px;
+        }
+        .arrow {
+            position: relative;
+            top: 60px;
+            right: 30px;
+        }
+        .notion {
+            max-width: 420px;
+        }
+        .bottomleftstar_hero {
+            position: absolute;
+            left: 0;
+            width: 60px;
+        }
+        /*-----------Banner-----------*/
+        .banner {
+            width: 100%;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            margin: 60px 0;
+            padding: 20px;
+        }
+        .code_name {
+            font-size: 28px;
+        }
+        
+        .services_section {
+        }
+        .services_section h2 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .smile {
+            width: 60px;
+            position: relative;
+            top: 18px
+        }
+        .project {
+            border: 3px solid #000;
+            border-right: none;
+            border-left: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px 0;
+            margin: 50px 0;
+        }
+        .stat {
+            width: 49%;
+        }
+        .stat_num {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        .service {
+            max-width: 700px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .service_box {
+            border: 3px solid black;
+            max-width: 320px;
+        }
+        .service_icon {
+            width: 50px;
+            margin: 35px 20px 20px 20px;
+        }
+        .service h3 {
+            font-size: 28px;
+            margin: 0 0 0 20px;
+        }
+        .service p {
+            font-size: 18px;
+            margin: 15px 0 15px 20px;
+        }
+        .service_btn {
+            width: 100%;
+            border: 3px solid black;
+            border-width: 3px 0 0 0;
+            padding: 20px;
+            font-size: 22px;
+        }
+
+        .my_portfolio {
+            margin-top: 60px;
+        }
+        .my_portfolio > h2 {
+            font-size: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .my_portfolio .sun {
+            width: 100px;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .portfolio_box {
+            border: 3px solid black;
+            padding: 35px 25px;
+            background-color: #fff;
+            max-width: 380px;
+        }
+        .portfolio_img {
+            width: 100%;
+        }
+        .portfolio_title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 0;
+        }
+        .portfolio_title > h3 {
+            font-size: 22px;
+        }
+
+        .feedback_section {
+            margin-top: 80px;
+            
+        }
+        .feedback_title {
+            display: flex;
+            margin-bottom: 80px;
+            gap: 20px;
+        }
+        .feedback_section h2{
+            font-size: 32px;
+        }
+        .new_clipart {
+            width: 50px;
+        }
+        .feedback {
+            max-width: 800px;
+            text-align: center;
+            margin:auto;
+            display: flex;
+        }
+
+        .message_section {
+            border: 3px solid black;
+            background-color: #fff;
+            text-align: center;
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 80px 20px;
+            box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.5);
+        }
+        .message_section h2 {
+            font-size: 32px;
+        }
+        .message_section p {
+            font-size: 20px;
+            margin: 30px 0 20px 0;
+        }
+        footer {
+            border: 3px solid black;
+            border-width: 3px 0 0 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+        }
+        footer > .box {
+            border: none;
+        }
