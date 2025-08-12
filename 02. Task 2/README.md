@@ -9,4 +9,4 @@ A personal portfolio showcasing top-notch, high-converting website designs. Incl
 - Sections: Services, Portfolio, Testimonials, Contact
 
 # Screenshot
-![Screenshot](screenshot.png?raw=true "screenshot")
+![Screenshot](Screenshot.png?raw=true "screenshot")
