@@ -10,4 +10,4 @@ This is a responsive clone of the ExpressVPN landing page, built to showcase cle
 
 # Screenshot
 
-![Alt text](/screenshot.png?raw=true "screen shot")
+![Screen Shot](screenshot.png?raw=true "screen shot")
