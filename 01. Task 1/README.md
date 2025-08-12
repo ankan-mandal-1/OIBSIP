@@ -7,3 +7,7 @@ This is a responsive clone of the ExpressVPN landing page, built to showcase cle
 - Informational sections with icons and illustrations
 - Call-to-action buttons and benefit highlights
 - Styled with accessible, user-centric visuals
+
+# Screenshot
+
+![Alt text](/screenshot.png?raw=true "screen shot")
